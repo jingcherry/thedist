@@ -1,0 +1,110 @@
+.mainNavMenuL {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    text-align: center;
+    font-size: 12px;
+
+    .el-menu {
+        border-right: 0 none;
+    }
+
+    .navMenu-logo {
+        height: 104px;
+    }
+
+    .navMenu-homepage {
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    /* 首页和客房监控的样式 */
+    .navMenu-homepage,
+    .navMenu-roomjk {
+        margin-bottom: 8px;
+        height: 48px;
+        line-height: 48px;
+        font-size: 12px;
+        font-family: PingFangSC-Regular;
+        color: #606060;
+        letter-spacing: -0.25px;
+        cursor: pointer;
+    }
+
+    .navMenu-homepage.is-active,
+    .navMenu-roomjk.is-active {
+        font-family: PingFangSC-Semibold;
+        font-size: 14px;
+        color: #303030;
+        letter-spacing: -0.27px;
+        font-weight: bolder;
+    }
+
+    /* nav所有的标题样式 */
+    .menuLTitle {
+        margin-bottom: 8px;
+
+        /* 菜单标题自带的箭头不显示 */
+        .el-icon-arrow-down:before {
+            content: "";
+        }
+
+        .el-icon-arrow-down:after {
+            content: "";
+        }
+
+        .el-submenu__title {
+            height: 48px;
+            line-height: 48px;
+            font-size: 12px;
+            font-family: PingFangSC-Regular;
+            color: #606060;
+            letter-spacing: -0.25px;
+        }
+    }
+
+    /* 被访问时候的样式修改 */
+    .menuLTitle.is-active {
+        .el-submenu__title {
+            span {
+                font-family: PingFangSC-Semibold;
+                font-size: 14px;
+                color: #303030;
+                letter-spacing: -0.27px;
+                font-weight: bolder;
+            }
+        }
+
+        .el-menu-item.is-active {
+            font-family: PingFangSC-Semibold;
+            font-size: 12px;
+            color: #303030 !important;
+            letter-spacing: -0.25px;
+            font-weight: bolder;
+        }
+    }
+
+    /* nav 所有的二级子菜单 */
+    .el-menu.el-menu--inline {
+        margin-top: 8px;
+
+        .el-menu-item {
+            height: 40px;
+            line-height: 40px;
+            font-family: PingFangSC-Regular;
+            font-size: 12px;
+            color: #999999 !important;
+            letter-spacing: -0.25px;
+
+            &:nth-child(1) {
+                margin-top: 8px;
+            }
+        }
+    }
+}

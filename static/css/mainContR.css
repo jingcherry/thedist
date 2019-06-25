@@ -1,0 +1,446 @@
+.mainContR {
+  margin-left: 200px;
+  height: 100%;
+  padding: 24px 32px;
+}
+.layer-box {
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+/* 白色框公用头部 */
+.layerC-header {
+  height: 48px;
+  font-size: 12px;
+  font-family: PingFangSC-Semibold;
+  color: #303030;
+  letter-spacing: -0.25px;
+  padding: 15px 24px 0px;
+}
+.layerC-header .leftTitle {
+  float: left;
+  height: 22px;
+  font-weight: bold;
+  line-height: 22px;
+}
+.layerC-header .rightTotal {
+  float: right;
+  height: 22px;
+}
+.rpage-header {
+  background: #fff;
+  min-height: 56px;
+  /* border-radius: 8px; */
+  /* margin-bottom: 24px; */
+}
+.handleIcon {
+  font-size: 14px;
+  float: left;
+  height: 22px;
+  line-height: 22px;
+  margin-right: 8px;
+}
+.zj-select {
+  height: 28px;
+  line-height: 28px;
+}
+.zj-select .el-input .el-input__inner {
+  height: 28px;
+  border: 0 none;
+  width: 100px;
+  background: #F4F4F4;
+  border-radius: 6px;
+  font-family: SFProText-Regular;
+  font-size: 12px;
+  color: #303030;
+  letter-spacing: -0.23px;
+  text-align: center;
+}
+.zj-select .el-input .el-input__icon {
+  line-height: 28px;
+}
+@media (max-width: 991px) {
+  .rroom-info .room-jk {
+    padding-right: 0px;
+    margin-bottom: 24px;
+  }
+}
+/* elementui table 样式 */
+/* 公用搜索框样式 */
+.roomindex-search {
+  padding: 14px 0 14px 24px;
+}
+.roomindex-search .search-list {
+  height: 28px;
+}
+.roomindex-search .search-list .search-list-li {
+  height: 28px;
+  line-height: 28px;
+  float: left;
+  margin-right: 24px;
+}
+.roomindex-search .search-list .search-list-li .li-tit {
+  float: left;
+  font-family: PingFangSC-Regular;
+  font-size: 11px;
+  color: #303030;
+  letter-spacing: -0.23px;
+  margin-right: 10px;
+}
+.roomindex-search .search-list .search-list-li .li-select {
+  float: left;
+}
+.roomindex-search .search-list .search-list-li .li-btn {
+  float: left;
+  margin-left: 20px;
+  height: 28px;
+}
+.roomindex-search .search-list .search-list-li .li-btn div {
+  height: 28px;
+  width: 86px;
+  text-align: center;
+  line-height: 28px;
+  background: #86B3E7;
+  border-radius: 6px;
+  font-family: PingFangSC-Semibold;
+  font-size: 11px;
+  color: #FFFFFF;
+  letter-spacing: -0.23px;
+  cursor: pointer;
+}
+/* 房间监控-具体房间-设备区域公用样式 */
+.room-devices-box .devices-lists {
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+.room-devices-box .devices-lists:nth-child(even) {
+  padding-left: 12px;
+}
+.room-devices-box .devices-lists:nth-child(odd) {
+  padding-right: 12px;
+}
+.room-devices-box .devices-lists .devices-control {
+  background: #fff;
+  border-radius: 8px;
+  padding: 0 24px 40px;
+}
+.room-devices-box .devices-lists .devices-control .control-tit {
+  height: 48px;
+  margin-bottom: 8px;
+  line-height: 48px;
+  font-family: PingFangSC-Semibold;
+  font-size: 12px;
+  color: #303030;
+  letter-spacing: -0.16px;
+  font-weight: bolder;
+}
+.room-devices-box .devices-lists .devices-control .control-main {
+  height: 336px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list {
+  /* 空调温控器 */
+  /* 普通灯 */
+  /* 调光灯 */
+  /* 窗帘 */
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li {
+  min-height: 56px;
+  border-bottom: 1px solid #BDBDBD;
+  font-weight: bold;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li .devices-name {
+  float: left;
+  height: 56px;
+  line-height: 56px;
+  font-family: PingFangSC-Semibold;
+  font-size: 12px;
+  color: #303030;
+  letter-spacing: -0.29px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li .devices-switch,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li .devices-silder,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li .devices-silderbtn {
+  float: left;
+  height: 56px;
+  line-height: 56px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt {
+  height: 344px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-slider {
+  height: 200px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-slider #slider {
+  width: 70%;
+  height: 200px;
+  margin: 0 auto;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-slider #slider .rs-range-color {
+  background-color: #86B3E7;
+  border: none;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-slider #slider .rs-path-color {
+  background-color: #EFEFEF;
+  border: none;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-slider #slider .rs-border,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-slider #slider .rs-seperator {
+  border: 0 none;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-slider #slider .rs-handle.rs-move,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-slider #slider .rs-handle {
+  background: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options {
+  height: 144px;
+  width: 250px;
+  margin: 0 auto;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .tempSpeed.el-dropdown {
+  width: 30px;
+  height: 30px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .tempSpeed.el-dropdown span {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .tempSpeed.el-dropdown span i {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-changes {
+  margin-top: 30px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-modes {
+  display: flex;
+  justify-content: space-between;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-changes {
+  display: flex;
+  justify-content: center;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-changes .kt-icon.icon-switchBtn {
+  font-size: 32px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-changes .icon-switchBtn-off:before {
+  color: #ddd;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-modes,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-changes {
+  height: 32px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-modes .kt-icon,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-changes .kt-icon {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 26px;
+  cursor: pointer;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-modes .kt-icon.kt-contro,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-changes .kt-icon.kt-contro {
+  border-radius: 50%;
+  background: #2d8eff;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-modes .kt-icon.kt-contro:before,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-changes .kt-icon.kt-contro:before {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-modes .kt_icon_heat:before,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-changes .kt_icon_heat:before {
+  color: #ffa600;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-modes .kt_icon_cool:before,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-changes .kt_icon_cool:before {
+  color: #2d8eff;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-modes .kt_icon_dehumid:before,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-changes .kt_icon_dehumid:before {
+  color: #ffd200;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-modes .kt_icon_air:before,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li-kt .kt-options .kt-options-changes .kt_icon_air:before {
+  color: #99d618;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-pt .devices-name {
+  width: 75%;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-pt .devices-switch {
+  width: 25%;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-pt .devices-switch .the-switch-input {
+  width: 30px;
+  height: 10px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-pt .devices-switch .the-switch-input .el-switch__core {
+  width: 30px;
+  height: 10px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-pt .devices-switch .the-switch-input .el-switch__core:after {
+  top: -4px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-tg .devices-name {
+  width: 40%;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-tg .devices-silder {
+  width: 60%;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-tg .devices-silder .el-slider__runway {
+  height: 8px;
+  margin: 24px 0;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-tg .devices-silder .el-slider__runway .el-slider__bar {
+  background-color: #FAD650;
+  border-radius: 12px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-tg .devices-silder .el-slider__runway .el-slider__button {
+  height: 20px;
+  width: 20px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  border: 0 none;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-name {
+  width: 50%;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-silderbtn,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-silderbtn {
+  width: 50%;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-silderbtn .iconBtn,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-silderbtn .iconBtn {
+  width: 33%;
+  float: left;
+  height: 56px;
+  line-height: 56px;
+  font-size: 26px;
+  text-align: center;
+  color: #ddd;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-silderbtn .iconBtn:before,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-silderbtn .iconBtn:before {
+  cursor: pointer;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-silderbtn .iconBtn.icon-current,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-silderbtn .iconBtn.icon-current {
+  color: #303030;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-silderbtn .el-slider__runway,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-silderbtn .el-slider__runway {
+  height: 8px;
+  margin: 24px 0;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-silderbtn .el-slider__runway .el-slider__bar,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-silderbtn .el-slider__runway .el-slider__bar {
+  border-radius: 12px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-silderbtn .el-slider__runway .el-slider__button,
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-silderbtn .el-slider__runway .el-slider__button {
+  height: 20px;
+  width: 20px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  border: 0 none;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-silderbtn.angle .el-slider__runway .el-slider__bar {
+  background-color: #C1E080;
+}
+.room-devices-box .devices-lists .devices-control .control-main .control-list .control-list-li.type-cl .devices-silderbtn.pos .el-slider__runway .el-slider__bar {
+  background-color: #FAD650;
+}
+.room-devices-box .devices-lists .devices-control .control-main .bgm-content {
+  padding: 34px 0;
+}
+.room-devices-box .devices-lists .devices-control .control-main .bgm-content .content-switch {
+  height: 124px;
+  width: 124px;
+  margin: 0 auto 44px;
+  font-size: 124px;
+  line-height: 124px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.room-devices-box .devices-lists .devices-control .control-main .bgm-content .content-switch.current:before {
+  color: #ddd;
+}
+.room-devices-box .devices-lists .devices-control .control-main .bgm-content .content-volume {
+  height: 42px;
+  display: flex;
+  justify-content: space-around;
+  padding: 6px 10px 0;
+  margin-bottom: 14px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .bgm-content .content-volume .volume-btn {
+  height: 24px;
+  width: 24px;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+.room-devices-box .devices-lists .devices-control .control-main .bgm-content .content-volume .devices-silder {
+  width: 65%;
+  margin: 0 0;
+}
+.room-devices-box .devices-lists .devices-control .control-main .bgm-content .content-volume .devices-silder .el-slider__runway {
+  height: 8px;
+  margin: 10px 0;
+}
+.room-devices-box .devices-lists .devices-control .control-main .bgm-content .content-volume .devices-silder .el-slider__runway .el-slider__bar {
+  background-color: #FAD650;
+  border-radius: 12px;
+}
+.room-devices-box .devices-lists .devices-control .control-main .bgm-content .content-volume .devices-silder .el-slider__runway .el-slider__button {
+  height: 20px;
+  width: 20px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  border: 0 none;
+}
+.room-devices-box .devices-lists .devices-control .control-main .bgm-content .content-choose {
+  height: 42px;
+  display: flex;
+  justify-content: space-around;
+  padding: 6px 10px 0;
+}
+.room-devices-box .devices-lists .devices-control .control-main .bgm-content .content-choose .choose-btn {
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.room-devices-box .devices-lists .devices-control .control-main .bgm-content .content-choose .choose-btn.current:before {
+  color: #333;
+}
+/* 页面搜索栏中的布局 */
+.select-content {
+  height: 56px;
+  padding: 14px 0 14px 24px;
+  display: flex;
+}
+.select-content .select-li {
+  height: 28px;
+}
+.select-content .select-li .el-input__inner {
+  height: 28px;
+  background: #f4f4f4;
+  border-radius: 6px;
+  border: 0 none;
+  font-family: PingFangSC-Regular;
+  font-size: 11px;
+  color: #303030;
+  letter-spacing: -0.23px;
+}
+.select-content .select-li .el-input__icon {
+  line-height: 28px;
+}

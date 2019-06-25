@@ -1,0 +1,365 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?imu0t7');
+  src:  url('../fonts/icomoon.eot?imu0t7#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?imu0t7') format('truetype'),
+    url('../fonts/icomoon.woff?imu0t7') format('woff'),
+    url('../fonts/icomoon.svg?imu0t7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-2x8:before {
+  content: "\e900";
+  color: #86b3e7;
+}
+.icon-4 .path1:before {
+  content: "\e901";
+  color: rgb(0, 0, 0);
+}
+.icon-4 .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon--2x13:before {
+  content: "\e903";
+  color: #fad650;
+}
+.icon-2x9:before {
+  content: "\e904";
+  color: #ddd;
+}
+.icon--2:before {
+  content: "\e905";
+}
+.icon--3:before {
+  content: "\e906";
+  color: #ddd;
+}
+.icon-5:before {
+  content: "\e907";
+}
+.icon--2x14:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-2x10:before {
+  content: "\e909";
+  color: #86b3e7;
+}
+.icon--2x15:before {
+  content: "\e90a";
+}
+.icon-2x11:before {
+  content: "\e90b";
+  color: #c4c4c4;
+}
+.icon-A:before {
+  content: "\e90c";
+  color: #86b3e7;
+}
+.icon-B1:before {
+  content: "\e90d";
+  color: #dbdbdb;
+}
+.icon--4:before {
+  content: "\e90e";
+}
+.icon--6:before {
+  content: "\e90f";
+  color: #ddd;
+}
+.icon--2x21:before {
+  content: "\e910";
+  color: #bdbdbd;
+}
+.icon--2x22:before {
+  content: "\e911";
+  color: #ddd;
+}
+.icon--2x2:before {
+  content: "\e912";
+}
+.icon-uniE913:before {
+  content: "\e913";
+  color: #ddd;
+}
+.icon--2x3:before {
+  content: "\e914";
+}
+.icon-2x:before {
+  content: "\e915";
+  color: #c4c4c4;
+}
+.icon--2x4:before {
+  content: "\e916";
+  color: #fff;
+}
+.icon-2x1:before {
+  content: "\e917";
+  color: #fad650;
+}
+.icon--2x5:before {
+  content: "\e918";
+}
+.icon-2x2:before {
+  content: "\e919";
+  color: #c4c4c4;
+}
+.icon--2x6:before {
+  content: "\e91a";
+  color: #fff;
+}
+.icon-2x3:before {
+  content: "\e91b";
+  color: #fff;
+}
+.icon-2x4:before {
+  content: "\e91c";
+  color: #fff;
+}
+.icon-2x17:before {
+  content: "\e91d";
+  color: #fff;
+}
+.icon-2x16:before {
+  content: "\e91e";
+  color: #fff;
+}
+.icon--5:before {
+  content: "\e91f";
+}
+.icon-7:before {
+  content: "\e920";
+  color: #bdbdbd;
+}
+.icon--2x20:before {
+  content: "\e921";
+}
+.icon--2x19:before {
+  content: "\e922";
+  color: #bdbdbd;
+}
+.icon--2x18:before {
+  content: "\e923";
+  color: #c1e080;
+}
+.icon--2x17:before {
+  content: "\e924";
+  color: #ddd;
+}
+.icon-6:before {
+  content: "\e925";
+  color: #999;
+}
+.icon-2x15:before {
+  content: "\e926";
+  color: #ffa265;
+}
+.icon-2x14:before {
+  content: "\e927";
+  color: #c4c4c4;
+}
+.icon--2x16:before {
+  content: "\e928";
+}
+.icon-2x13:before {
+  content: "\e929";
+  color: #c4c4c4;
+}
+.icon-2x12:before {
+  content: "\e92a";
+  color: #979797;
+}
+.icon--2x35:before {
+  content: "\e92b";
+}
+.icon-2x7:before {
+  content: "\e92c";
+  color: #c4c4c4;
+}
+.icon-2x6:before {
+  content: "\e92d";
+  color: #c1e080;
+}
+.icon--2x11:before {
+  content: "\e92e";
+}
+.icon--2x10:before {
+  content: "\e92f";
+  color: #bdbdbd;
+}
+.icon--2x23:before {
+  content: "\e930";
+  color: #ddd;
+}
+.icon-8:before {
+  content: "\e931";
+  color: #999;
+}
+.icon--2x24:before {
+  content: "\e932";
+}
+.icon-2x18:before {
+  content: "\e933";
+  color: #c4c4c4;
+}
+.icon-2x19:before {
+  content: "\e934";
+  color: #c4c4c4;
+}
+.icon--2x25:before {
+  content: "\e935";
+}
+.icon--2x26:before {
+  content: "\e936";
+  color: #bdbdbd;
+}
+.icon--2x27:before {
+  content: "\e937";
+  color: #c1e080;
+}
+.icon--2x1:before {
+  content: "\e938";
+  color: #ddd;
+}
+.icon--2x36:before {
+  content: "\e939";
+}
+.icon-2x5:before {
+  content: "\e93a";
+  color: #c4c4c4;
+}
+.icon-3:before {
+  content: "\e93b";
+}
+.icon-2:before {
+  content: "\e93c";
+  color: #86b3e7;
+}
+.icon-B:before {
+  content: "\e93d";
+  color: #c4c4c4;
+}
+.icon-9:before {
+  content: "\e93e";
+  color: #86b3e7;
+}
+.icon-B2:before {
+  content: "\e93f";
+  color: #c4c4c4;
+}
+.icon--2x38:before {
+  content: "\e940";
+  color: #fff;
+}
+.icon--2x28:before {
+  content: "\e941";
+  color: #fff;
+}
+.icon-2x20:before {
+  content: "\e942";
+  color: #ffa265;
+}
+.icon-2x21:before {
+  content: "\e943";
+  color: #c4c4c4;
+}
+.icon-2x22:before {
+  content: "\e944";
+  color: #fff;
+}
+.icon--2x29:before {
+  content: "\e945";
+}
+.icon-2x26:before {
+  content: "\e946";
+  color: #c4c4c4;
+}
+.icon--7:before {
+  content: "\e947";
+}
+.icon--1:before {
+  content: "\e948";
+  color: #ddd;
+}
+.icon--user:before {
+  content: "\e949";
+}
+.icon-1:before {
+  content: "\e94a";
+  color: #bdbdbd;
+}
+.icon--2x9:before {
+  content: "\e94b";
+}
+.icon-2x23:before {
+  content: "\e94c";
+  color: #c4c4c4;
+}
+.icon--2x30:before {
+  content: "\e94d";
+  color: #86b3e7;
+}
+.icon-2x25:before {
+  content: "\e94e";
+  color: #ddd;
+}
+.icon--2x31:before {
+  content: "\e94f";
+  color: #ffa265;
+}
+.icon-2x24:before {
+  content: "\e950";
+  color: #ddd;
+}
+.icon--2x32:before {
+  content: "\e951";
+}
+.icon--2x33:before {
+  content: "\e952";
+  color: #bdbdbd;
+}
+.icon--2x34:before {
+  content: "\e953";
+  color: #c1e080;
+}
+.icon--2x:before {
+  content: "\e954";
+  color: #ddd;
+}
+.icon--2x37:before {
+  content: "\e955";
+}
+.icon--2x8:before {
+  content: "\e956";
+  color: #bdbdbd;
+}
+.icon--2x7:before {
+  content: "\e957";
+  color: #c1e080;
+}
+.icon--2x12:before {
+  content: "\e958";
+  color: #ddd;
+}
+.icon-2x27:before {
+  content: "\e959";
+  color: #fff;
+}

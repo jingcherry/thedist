@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fontsbgm/icomoon.eot?d7e8vq');
+  src:  url('../fontsbgm/icomoon.eot?d7e8vq#iefix') format('embedded-opentype'),
+    url('../fontsbgm/icomoon.ttf?d7e8vq') format('truetype'),
+    url('../fontsbgm/icomoon.woff?d7e8vq') format('woff'),
+    url('../fontsbgm/icomoon.svg?d7e8vq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon--2x:before {
+  content: "\e900";
+}
+.icon-2x:before {
+  content: "\e901";
+  color: #ddd;
+}
+.icon--2x1:before {
+  content: "\e902";
+  color: #ddd;
+}
+.icon--2x2:before {
+  content: "\e903";
+}
+.icon-uniE904:before {
+  content: "\e904";
+}
+.icon--2x3:before {
+  content: "\e905";
+  color: #efefef;
+}
+.icon-2x1:before {
+  content: "\e906";
+  color: #86b3e7;
+}
+.icon--2x4:before {
+  content: "\e907";
+}
+.icon-2x2:before {
+  content: "\e908";
+  color: #ddd;
+}
+.icon--2x10:before {
+  content: "\e909";
+  color: #ddd;
+}
+.icon--2x11:before {
+  content: "\e90a";
+}
+.icon--2x12:before {
+  content: "\e90b";
+}
+.icon-2x3:before {
+  content: "\e90c";
+  color: #ddd;
+}
+.icon--2x13:before {
+  content: "\e90d";
+}
+.icon-2x4:before {
+  content: "\e90e";
+  color: #ddd;
+}
+.icon---2x:before {
+  content: "\e90f";
+}
+.icon--2x5:before {
+  content: "\e910";
+  color: #ddd;
+}
+.icon---2x1:before {
+  content: "\e911";
+}
+.icon--2x6:before {
+  content: "\e912";
+  color: #ddd;
+}
+.icon---2x2:before {
+  content: "\e913";
+}
+.icon--2x7:before {
+  content: "\e914";
+  color: #ddd;
+}
+.icon--2x8:before {
+  content: "\e915";
+  color: #ddd;
+}
+.icon--2x9:before {
+  content: "\e916";
+}
